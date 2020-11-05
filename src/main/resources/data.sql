@@ -1,0 +1,26 @@
+SET SCHEMA 'switchfullymanager';
+INSERT INTO employers (id, name, address) VALUES (1, 'Cegeka', 'IT street');
+INSERT INTO employers (id, name, address) VALUES (2, 'Colruyt', 'Food street');
+INSERT INTO employers (id, name, address) VALUES (3, 'Government', 'Make Belgium Better street');
+
+INSERT INTO amazing_people (id, name, employer_id) VALUES (11, 'Gunther', 3);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (7, 'Karel', 1);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (19, 'Pascal', 3);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (20, 'Sil', 2);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (16, 'Kris', 2);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (6, 'Gilles', 1);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (15, 'Jeroen', 2);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (13, 'Jan', 1);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (17, 'Laurens', 2);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (2, 'Kobe', 1);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (21, 'Vuong', 3);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (18, 'Nelu', 3);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (12, 'Hans', 2);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (4, 'William', 1);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (5, 'Tim', 1);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (8, 'Alex', 2);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (9, 'Bram', 2);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (10, 'Guillermo', 2);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (1, 'Reinout', 1);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (14, 'Jérémie', 3);
+INSERT INTO amazing_people (id, name, employer_id) VALUES (3, 'Christoph', 1);
